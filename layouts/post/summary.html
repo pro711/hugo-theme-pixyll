@@ -10,6 +10,6 @@
   <p class="post-meta">Tags:&nbsp;
   {{ range $i, $e := .Params.tags }}
       {{if $i}},&nbsp;{{end}}
-      <a href="{{ $baseurl }}/tags/{{ . }}">{{ . }}</a>
+      <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a>
   {{ end }}</p>
 </div>
