@@ -115,6 +115,10 @@ body {
   color: #333;
 }
 
+.post-author {
+  font-weight: 300;
+}
+
 .post-footer {
   @extend .italic;
 
